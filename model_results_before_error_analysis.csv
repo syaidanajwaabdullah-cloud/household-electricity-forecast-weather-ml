@@ -1,0 +1,8 @@
+features,model,MAE,RMSE,MAPE_%,R2
+A_no_lag,Ridge (baseline),1.507,1.893,12.961,0.073
+A_no_lag,Random Forest,0.782,0.977,6.374,0.753
+A_no_lag,XGBoost,0.541,0.668,4.311,0.885
+B_with_lag,Naive (lag_1),0.477,0.961,3.957,0.761
+B_with_lag,Ridge (baseline),0.417,0.897,3.541,0.792
+B_with_lag,Random Forest,0.304,0.469,2.477,0.943
+B_with_lag,XGBoost,0.129,0.235,1.024,0.986
